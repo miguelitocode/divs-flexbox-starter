@@ -110,8 +110,9 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
+align-items: center;
   display: flex;
-  font-weight: 700;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 
@@ -120,16 +121,22 @@ body {
   align-items: center;
   color: #fff;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #434035;
   height: 300px;
-  width: 30%;
+  text-align: center;
+  width: 33%;
 }
 
-
-
+h1{
+  font-size: 1.em;
+}
+p{
+  font-size: .75em;
+  padding: 0px 15px;
+}
 
 /* ==========================================================================
    Helper classes
